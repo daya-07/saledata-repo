@@ -8,7 +8,7 @@ df = pd.DataFrame(data)
 print(df)
 
 #Comparison of Totals in different regions
-plt.bar(df["Region"], df["Total"])
+plt.bar(df["Region"], df["Total"], color='lightgreen')
 plt.title("Total vs Region")
 plt.show()
 
