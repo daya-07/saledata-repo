@@ -15,7 +15,7 @@ plt.show()
 #Comparison of Totals between each category
 x = df.groupby("Category").sum("Total")
 # print(x["Total"])
-plt.pie(x=x["Total"], labels=np.unique(df["Category"]))
+plt.pie(x=x["Total"], labels=np.unique(df["Category"]), colors=['Pink', 'Grey', 'beige'])
 plt.title("Category vs Total")
 plt.show()
 
