@@ -1,2 +1,2 @@
 # saledata-repo
-Sample sales Data Analysis
+Sample Sales Data Analysis
